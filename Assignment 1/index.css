@@ -1,0 +1,89 @@
+html,body {
+    background-color: #252525;
+}
+
+.outline {
+    border: 2px solid white;
+    height:670px;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:130px;
+    position: relative;
+    
+}
+#bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.btn {
+    margin-top: 5rem;
+    height: 3rem;
+    width: 10rem;
+    border: 1px solid white;
+    background-color: #252525;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #252525;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+.topnav {
+    margin-left: 120px;
+}
+
+a {
+    color:white;
+}
+
+/* a:hover:not(.active) {
+    text-decoration-line: none;
+}
+
+.active {
+    text-decoration-line: underline;
+} */
+
+h1 {
+    color:white;
+}
+
+#thexx {
+    margin-left:80px;
+}
+
+#About {
+    margin-left: 80px;
+}
+
+#music {
+    margin-left: 80px;
+}
+
+#tour {
+    margin-left: 80px;
+}
+
+.newalbum {
+    text-align: center;
+}
+
+.button {
+    margin-left: 730px;
+    margin-top: 50px;
+}
+
+.entersite {
+    text-decoration-line: underline;
+}

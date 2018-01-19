@@ -1,0 +1,45 @@
+html,body {
+    background-color: #252525;
+}
+
+#thexx {
+    margin-left:80px;
+}
+
+#About {
+    margin-left: 80px;
+}
+
+#music {
+    margin-left: 80px;
+}
+
+#tour {
+    margin-left: 80px;
+}
+
+a {
+    color:white;
+}
+
+.table {
+    margin-top: 3rem;
+    margin-bottom: auto;
+}
+
+.table-hover tbody tr:hover td {
+    background: white;
+    color:#252525;
+}
+
+.foot {
+  margin-top:2rem;
+  margin-left: 90rem;
+}
+
+.tourtitle {
+    font-size: 30px;
+    color: white;
+    font-weight: 150;
+    margin-top: 8rem;
+}
