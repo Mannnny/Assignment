@@ -1,0 +1,61 @@
+html,body {
+    background-color: #252525;
+}
+
+#thexx {
+    margin-left:80px;
+}
+
+#About {
+    margin-left: 80px;
+}
+
+#music {
+    margin-left: 80px;
+}
+
+#tour {
+    margin-left: 80px;
+}
+
+a {
+    color:white;
+}
+
+.foot {
+  margin-top:2rem;
+  margin-left: 90rem;
+}
+
+.titleimage {
+    width: 100%;
+    height: 90%;
+    /* border: 1px solid black; */
+    margin-top: 4rem;
+}
+
+.newstitle {
+    margin-top: 4rem;
+}
+
+/* .bandinfo {
+    margin-top: 8rem;
+} */
+
+.newscontent {
+    margin-top: 4rem;
+}
+
+.individualinfo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.myCarousel {
+    width: 100%;
+}
+
+.carousel-inner item {
+    width: 100%;
+}
