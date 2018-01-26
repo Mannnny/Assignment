@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+    
+    //to create an object that covers global variables
+    var state = {
+            max: null,
+            goal: null,
+            isEnding: true,
+            name: null
+        }
+
+    //USERINPUT NAME
+
+    function welcome() {
+        state.name = prompt('What is your name?'); 
+        console.log(name); 
+    }
+
+    //MAX NUMBER
+
+    function getMaxNumber() {
+        let max = prompt("What's your max number?") 
+            alert('Hi ' + state.name + ' you have chosen the number ' + max);
+
+        let sum = 5 + max * 1
+            alert(max + ' plus ' + 5 + ' is ' + sum + '. This is your final max number') //check later. 
+            state.max = sum
+    }
+    
+    //RUN SYSTEM ANSWER NUMBER
+
+    function getRandom() {
+        return Math.floor(Math.random() * Math.floor(state.max))
+    }
+
+    //USER SUBMIT THEIR GUESS NUMBERS
+
+    function getGuessFromUser(text) {
+        console.log("answer is" + state.goal)
+        
+        var guessNumber = prompt("to" + 'Guess a number')
+            console.log(guessNumber)
+
+        isGuessCorrect(guessNumber)
+    }
+    
+    //IS CORRECT FUNCTION
+
+    function isGuessCorrect(guessNumber) {
+        console.log(guessNumber + "+" + state.goal)
+        if (state.goal == guessNumber) {
+            alert('Correct! Congrats!')
+            state.isEnding = true
+        } else if (state.goal > guessNumber) {
+            alert('Too low')
+        } else {
+            alert('Too high')
+        }
+    }
+
+    //start game function
+
+    function startGame() {
+            welcome()
+            getMaxNumber()
+            state.goal = getRandom()
+            state.isEnding = false
+
+            while (!state.isEnding) {
+                getGuessFromUser()
+            }
+        }
+
+    startGame()
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
